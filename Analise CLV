@@ -1,0 +1,8 @@
+print(" Analise de CLV - Custo Volume Lucro ");print("");print("São 3 os pontos de equilibrio");print("");c=int(input(print("Custos? ")))
+d=int(input(print("Despesas? ")));df=int(input(print("Despesas Fixas? ")));mcu=int(input(print("Margem de Contribuição Unitária? ")))
+rd =int(input(print("Resultado Desejado? ")));da=int(input(print("Depreciação ou Amortização? ")));print("");fma=("Formula")
+PEC=(c+df)/mcu;PEE=(c+d+rd)/mcu;PEF=((c+df)-da)/mcu;print("Ponto de Equilibrio Contabil",PEC)
+print(fma,"PEC = (custos+despesas fixas)/margem de contribuição unitária");print("");print("Ponto de Equilibrio Economico",PEE)
+print(fma,"PEE = (custos+despesas+resultado desejado)/margem de contribuição unitária");print("");print("Ponto de Equilibrio Financeiro",PEF)
+print(fma," PEF = ((custos+despesas fixas)-depreciação ou amortização)/margem de contribuição unitária")
+print("")
